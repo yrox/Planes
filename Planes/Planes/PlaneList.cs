@@ -47,5 +47,10 @@ namespace Planes
         {
             return Planes.Where(x => !x.IsCargo);
         }
+
+        public IEnumerable<Plane> GroupByType()
+        {
+            return Planes.OrderBy(x => x.IsCargo);
+        }
     }
 }

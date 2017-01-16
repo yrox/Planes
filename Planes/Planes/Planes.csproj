@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleIO.cs" />
     <Compile Include="Plane.cs" />
     <Compile Include="PlaneInitializer.cs" />
     <Compile Include="PlaneList.cs" />

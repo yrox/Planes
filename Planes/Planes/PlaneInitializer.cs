@@ -18,7 +18,7 @@ namespace Planes
             _input = input.Split(new[] {","}, StringSplitOptions.None);
 
             if (!IsNumberOfWordsCorrect())
-                throw new Exception("\nplease enter data in next way:\nname,number,places,distance");
+                throw new Exception("\nplease enter data in NEXT WAY:name,number,places,distance");
             if (!int.TryParse(_input[2], out _placesAmount) || _placesAmount < 0)
                 throw new Exception("\nplaces amount should be a postive integer");
             if (!int.TryParse(_input[3], out _distance) || _distance < 0)
