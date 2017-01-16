@@ -37,5 +37,15 @@ namespace Planes
         {
             return Planes.Where(x => x.Name.Contains(letter));
         }
+
+        public IEnumerable<Plane> GetCargoPlanes()
+        {
+            return Planes.Where(x => x.IsCargo);
+        }
+
+        public IEnumerable<Plane> GetPassengerPlanes()
+        {
+            return Planes.Where(x => !x.IsCargo);
+        }
     }
 }
