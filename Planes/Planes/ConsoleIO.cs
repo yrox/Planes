@@ -50,7 +50,7 @@ namespace Planes
         {
             foreach (var plane in _planeList.GetAlphabetizedPlanes())
             {
-                Console.WriteLine(plane.Name);
+                Console.WriteLine(plane.Name + " " + plane.Number);
             }
         }
         private void ShowPlanesContainingLetter()
@@ -64,7 +64,7 @@ namespace Planes
             }
             foreach (var plane in _planeList.GetPlanesContainingLetter(input))
             {
-                Console.WriteLine("\n" + plane.Name);
+                Console.WriteLine("\n" + plane.Name + " " + plane.Number);
             }
         }
         private void ShowByType()

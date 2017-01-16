@@ -26,7 +26,7 @@ namespace Planes
 
         public IEnumerable<Plane> GetAlphabetizedPlanes()
         {
-            return Planes.OrderBy(x => x.Name);
+            return Planes.OrderBy(x => x.Number);
         }
         public IEnumerable<Plane> GetMaxPlacesPlanes()
         {
@@ -35,7 +35,7 @@ namespace Planes
         }
         public IEnumerable<Plane> GetPlanesContainingLetter(char letter)
         {
-            return Planes.Where(x => x.Name.Contains(letter));
+            return Planes.Where(x => x.Number.Contains(letter));
         }
 
         public IEnumerable<Plane> GetCargoPlanes()
