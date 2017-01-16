@@ -2,13 +2,13 @@
 {
     public class Plane
     {
-        public Plane(string name, string number, int placesAmount, int diatance, bool isCargo = false)
+        public Plane(string name, string number, int placesAmount, int diatance)
         {
             Name = name;
             Number = number;
             PlacesAmount = placesAmount;
             Distance = diatance;
-            IsCargo = isCargo;
+            IsCargo = placesAmount == 0;
         }
 
         public string Name { get; }

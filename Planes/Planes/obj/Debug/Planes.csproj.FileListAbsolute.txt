@@ -7,3 +7,6 @@ c:\users\yrox\documents\visual studio 2015\Projects\Planes\Planes\obj\Debug\Plan
 D:\repos\Planes\Planes\Planes\bin\Debug\Planes.exe.config
 D:\repos\Planes\Planes\Planes\obj\Debug\Planes.exe
 D:\repos\Planes\Planes\Planes\obj\Debug\Planes.pdb
+D:\repos\Planes\Planes\Planes\bin\Debug\Planes.exe
+D:\repos\Planes\Planes\Planes\bin\Debug\Planes.pdb
+D:\repos\Planes\Planes\Planes\obj\Debug\Planes.csprojResolveAssemblyReference.cache
